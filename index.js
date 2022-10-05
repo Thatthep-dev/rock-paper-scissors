@@ -9,14 +9,14 @@ function getComputerChoice() {
 }
 
 function playerSelection() {
-    playerChoice = prompt('Please selected Rock, Paper, Scissors');
+    playerChoice = prompt('Please selected Rock, Paper, Scissors') ?? 'Please Select';
     playerChoice = playerChoice.toLowerCase();
     return playerChoice
 }
 
-function playRound(playerChoice, comChoice) {
-    if (playerChoice === comChoice) {
-        result = 'draw';
-        return result
+// Game logic is here
+function playRound() {
+    switch (true) {
+        case playerChoice = 
     }
 }
